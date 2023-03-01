@@ -5,16 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="title">Rock, Paper, Scissor</div>
+    <div class="disappear">
+        <div class="content">
+            <div class="content">First to 5 wins!</div>
+            <!-- <div class="content">Click a button to choose</div> -->
+        </div>
+        
+        <div class="btn">
+            <button class="Rock button" id="Rock">
+                <img id="Rock" class="btnImg" src="imgs/rock.png" alt="Rock"/>
+            </button>
+            <button class="Paper button" id="Paper">
+                <img id="Paper" class="btnImg" src="imgs/paper.png" alt="Paper">
+            </button>
+            <button class="Scissor button" id="Scissor">
+                <img id="Scissor" class="btnImg" src="imgs/scissors.png" alt="Scissor">
+            </button>
+        </div>
+        
+    </div>    
     <div class="score">
-        <div class="disappear">Click a button to choose</div>
-        <div class="scoreContent">Player's score: 0 Computer's score: 0</div>
+        <div class="scorePlayer">Player's score: 0</div>
+        <div class="scoreComputer">Computer's score: 0</div>
+    </div>  
+    <div class="result">
+        <div class="resultMassage">Click a button to choose</div>
     </div>
-    <button class="rock disappear" value="Rock">Rock</button>
-    <button class="paper disappear" value="Paper">Paper</button>
-    <button class="scissor disappear" value="Scissor">Scissor</button>
-    <div class="result"></div>
     <script src="game.js"></script>
+    <!-- <footer>Made by: <img id="gh-logo" src="images/githublogo.png" alt="github logo"/><a href=https://github.com/parkercon> Parker Conrad</a></footer> -->
 </body>
 </html>

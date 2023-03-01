@@ -1,0 +1,102 @@
+html {
+    font-size: 10px;
+    background: url('./imgs/background.jpg') bottom center;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.title {
+    font-size:50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    /* font-family:'Gloria Hallelujah', sans-serif; */
+}
+
+/* .disappear{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+} */
+
+.disappear .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+    /* border-radius: 50%; */
+    /* height: 200px;
+    width: 200px; */
+}
+
+.button {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.button:hover {
+    transform: scale(1.5);
+    border-color: goldenrod;
+}
+
+.transform {
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+}
+
+img.transform {
+    width: 200px;
+    height: 200px;
+}
+
+.score {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.result {
+    font-size: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.reloadBtn {
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.reloadBtn:hover {
+    transform: scale(1.5);
+    border-color: goldenrod;
+}
