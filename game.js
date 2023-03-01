@@ -8,7 +8,7 @@ const result = document.createElement("div");
 const buttons = document.querySelectorAll(".button");
 const btnImgs = document.querySelectorAll(".btnImg");
 
-let scorePlayer = 4;
+let scorePlayer = 0;
 let scoreComputer = 0;
 
 //buttons response
